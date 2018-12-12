@@ -15,7 +15,7 @@ body {
 #quote-box {
     display: block;
     margin: -15vh auto;
-    height: 65vh;
+    height: auto;
     width: 45vw;
     background: #ced4da;
     border-radius: 6px;
@@ -74,6 +74,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1rem;
+    margin-right: 1rem;
     cursor: pointer;
     transition: all .4s;
 }
@@ -84,16 +85,16 @@ h1 {
 
 #tweet-quote:link,
 #tweet-quote:visited {
-    border: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: .9rem;
     cursor: pointer;
     transition: all .4s;
     text-decoration: none;
-    margin-left: 1rem;
+    margin-left: 2rem;
     color: inherit;
     font-size: .8rem;
+}
+
+#tweet-quote:hover {
+    cursor: pointer;
 }
 
 #tweet-quote:hover #twitter-icon {
