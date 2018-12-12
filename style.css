@@ -134,5 +134,9 @@ h1 {
     }
 }
 
-
+@media only screen and (max-width: 455px) {
+    #quote-box {
+        margin: -20vh auto;
+    }
+}
 
