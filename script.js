@@ -66,7 +66,7 @@ class App extends React.Component {
                     <p id="text"><i className="fas fa-quote-right" id="quote-icon"></i>{quote}</p>
                     <p id="author">&ndash; {author}</p>
                 </div>
-                <button id="new-quote" onClick={this.handleNewQuote}>New quote</button>
+                <button id="new-quote" onClick={this.handleNewQuote}>quote++</button>
                 <a id="tweet-quote" onClick={tweetQuote}><i className="fab fa-twitter" id="twitter-icon"></i> </a>
             </div>
         );
