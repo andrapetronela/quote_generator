@@ -1,11 +1,11 @@
 const quotes = [
-    { quote: 'First, solve the problem. Then, write the code',
+    { quote: 'First, solve the problem. Then, write the code.',
       author: 'John Johnson',
     }, 
     { quote: 'All computers wait at the same speed.',
       author: 'Unknown',
     },
-    { quote: 'Computers do not solve problems. They execute the solutions',
+    { quote: 'Computers do not solve problems. They execute the solutions.',
       author: 'Unknown'
     },
     { quote: 'Software is like sex: it\'s better when it\'s free.',
@@ -67,7 +67,7 @@ class App extends React.Component {
                     <p id="author">&ndash; {author}</p>
                 </div>
                 <button id="new-quote" onClick={this.handleNewQuote}>New quote</button>
-                <a id="tweet-quote" onClick={tweetQuote}><i className="fab fa-twitter" id="twitter-icon"></i> Tweet</a>
+                <a id="tweet-quote" onClick={tweetQuote}><i className="fab fa-twitter" id="twitter-icon"></i> </a>
             </div>
         );
     }
