@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e4e9f7;
+    border-top: 30vh solid #272e5c;
+    font-family: 'Noto Sans TC';
+    color: #21252a;
+    overflow-x: hidden;
+}
+
+#quote-box {
+    display: block;
+    margin: -15vh auto;
+    height: 65vh;
+    width: 45vw;
+    background: #ced4da;
+    border-radius: 6px;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    padding: 2.5rem 1rem;
+    background: #ced4da;
+    font-family: 'Noto Sans TC';
+    color: #181d39;
+    font-size: 1.6rem;
+}
+
+#dev-img {
+    width: 7rem;
+    height: 7rem;
+    background: #c5d2f4;
+    border-radius: 50%;
+    border: 3px solid #f8f9fa;
+    position: absolute;
+    top: -4rem;
+    left: 2rem;
+}
+
+#quote-icon {
+    color: #adb5bd;
+    margin-right: .5rem;
+    opacity: .2;
+    font-size: 2rem;
+}
+
+#quote-text {
+    background: #f8f9fa;
+    padding: 6rem;
+    position: relative;
+    line-height: 1.8;
+    height: 40vh;
+}
+
+#text {
+    text-align: center;
+}
+
+#author {
+    position: absolute;
+    right: 10em;
+    margin-top: 1rem;
+    color: #adb5bd;
+}
+
+#new-quote {
+    border: 0;
+    background: #ff6a6b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+#new-quote:hover {
+    background: #fa5252;
+}
+
+#tweet-quote:link,
+#tweet-quote:visited {
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: .9rem;
+    cursor: pointer;
+    transition: all .4s;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: inherit;
+    font-size: .8rem;
+}
+
+#tweet-quote:hover #twitter-icon {
+    color: #0084b4;
+}
+
+#twitter-icon {
+    font-size: 2rem;
+    vertical-align: middle;
+    color: #00aced;
+}
